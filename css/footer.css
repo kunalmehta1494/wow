@@ -1,0 +1,19 @@
+.footerEnd{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: #1a191a;
+}
+    .leftContent{
+        float: left;
+        color: #B3AEAE;
+        padding-top: 30px;
+        font-size: 14px;
+    }
+    .rightContent{
+        float: right;
+        color: #B3AEAE;
+        padding-top: 30px;
+        font-size: 14px;
+    }

@@ -1,0 +1,56 @@
+.widgetContainer{
+    position: fixed;
+    top: 17.5rem;
+    height: 100%;
+    z-index: 10;
+.widget{
+    position: absolute;;
+    right: 0;
+    border-top-left-radius:   0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    height: 4rem;
+    width: 4rem;
+    color: white;
+    .image{
+        position: relative;
+        float: left;
+        img{
+            height: 2rem;
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+        }
+    }
+    .text{
+        position: relative;
+        float: right;
+        line-height: 4rem;
+        padding-right: 0.8rem;
+
+    }
+    &.first{
+        background: #3a5795;
+        top: 4rem;
+    }
+    &.second{
+        background:  #1da1f2;
+        top: 8.2rem;
+    }
+    &.third{
+        background: #125688;
+        top:12.4rem;
+    }
+    &.forth{
+            background: #cb202d;
+            top:16.6rem;
+    }
+    &.fifth{
+            background: #4B7E37;
+            top:20.8rem;
+            img{
+                height: 1.5rem;
+                top: 1.25rem;
+            }
+    }
+}
+}
